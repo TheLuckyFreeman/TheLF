@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>shapka</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+	<!-- логотип\поисковая\логин -->
+
+	<div class="base">
+		<div class="logo">
+			<i><span class="lt">Synth</span><span class="lt2">Wave.net</span></i>
+		</div>
+		<input class="pole" placeholder="SynthWave.net search..." type="text" size=45>	
+		<div class="hid">
+		</div>
+		<div class="au">
+			<span class="logsin">Sign In\Register</span>
+		</div>	
+
+
+	</div>
+
+	<!-- разделы -->
+
+	<div class="panel">
+		<div class="space">
+		</div>
+		<div class="buttons">
+			<ul class="list">
+                <li class="item"><span class="mid">Home</span>
+			        <div class="hid">
+			        	<div class="choice">
+					       <p>Profile</p>
+					    </div>
+					    <div class="choice">
+					       <p>My Feed</p>
+					    </div>
+					    <div class="choice">
+					       <p>My Posts</p>
+					    </div>
+					    <div class="choice">
+					       <p>My Works</p>
+					    </div>
+				    </div>
+		        </li>
+		    </ul>
+		</div>
+		<div class="buttons">
+			<ul class="list">
+                <li class="item"><span>Arts</span>
+			        <div class="hid">
+			        	<div class="choice">
+					       <p>Esthetics</p>
+					    </div>
+					    <div class="choice">
+					       <p>Dark Wave</p>
+					    </div>
+					    <div class="choice">
+					       <p>Wallpapers</p>
+					    </div>
+					    <div class="choice">
+					       <p>Pixel Like</p>
+					    </div>
+				    </div>
+		        </li>
+		    </ul>
+		</div>
+		<div class="buttons">
+			<ul class="list">
+                <li class="item"><span>Videos</span>
+			        <div class="hid">
+					    <div class="choice">
+					       <p>Esthetics</p>
+					    </div>
+					    <div class="choice">
+					       <p>Music Videos</p>
+					    </div>
+					    <div class="choice">
+					       <p>Movies</p>
+					    </div>
+					    <div class="choice">
+					       <p>C H I L L</p>
+					    </div>
+				    </div>
+		        </li>
+		    </ul>
+		</div>
+		<div class="buttons">
+			<ul class="list">
+                <li class="item"><span>Music</span>
+			        <div class="hid">
+					    <div class="choice">
+					       <p>Synthwave</p>
+					    </div>
+					    <div class="choice">
+					       <p>Dark Wave</p>
+					    </div>
+					    <div class="choice">
+					       <p>Pop-Synth</p>
+					    </div>
+					    <div class="choice">
+					       <p>8-bit</p>
+					    </div>
+				    </div>
+		        </li>
+		    </ul>
+		</div>
+		<div class="buttons">
+			<ul class="list">
+                <li class="item"><span>Community</span>
+			        <div class="hid">
+					    <div class="choice">
+					       <p>Forum</p>
+					    </div>
+					    <div class="choice">
+					       <p>Rating</p>
+					    </div>
+					    <div class="choice">
+					       <p>Most active users</p>
+					    </div>
+					    <div class="choice">
+					       <p>SynthCon 2020</p>
+					    </div>
+				    </div>
+		        </li>
+		    </ul>
+		</div>
+	</div>
+
+	<!-- инфо о сайте -->
+
+	<!-- <div class="info">
+
+	</div>
+
+    -->
+
+	<!-- скрипт разворачивания -->
+
+	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+
+	<script>
+      $(document).ready(function() {
+        $(".hid").hide();
+        $(".item > span").click(function() {
+          $(this).next().slideToggle();
+        });
+      });
+    </script>
+
+		
+
+
+</body>
+</html>
